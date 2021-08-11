@@ -24,7 +24,7 @@ public class Customer {
 		this.resedentialAddress = resedentialAddress;
 	}
 	public void getCustomerDetails() {
-		System.out.println("customer:"+customerName);
+		System.out.println("Customer:"+customerName);
 		System.out.println("Resedential Address:"+resedentialAddress.getAddressLine()+","+resedentialAddress.getCity());
 	/*return "customer:"+getCustomerDetails()+",Resedential Address:"+resedentialAddress.getAddressLine()+","+resedentialAddress.getCity();*/
 	}
