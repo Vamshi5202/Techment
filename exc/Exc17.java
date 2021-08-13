@@ -1,4 +1,4 @@
-package com.tech.exp;
+package com.tech.exc;
 import java.util.*;
 public class Exc17 {
 
@@ -18,7 +18,7 @@ public class Exc17 {
 	public static void Validate(int age)throws InvalidAgeException {
 		
 		if(age<18) {
-			throw new InvalidAgeException();
+			throw new InvalidAgeException("not eligible to vote");
 		}
 		else {
 			System.out.println("eligible to vote");
@@ -26,4 +26,13 @@ public class Exc17 {
 
 	}
 
+}
+class InvalidAgeException extends Exception{
+	String msg;
+
+	public InvalidAgeException(String msg) {
+		super();
+		this.msg = msg;
+	}
+	
 }

@@ -1,4 +1,4 @@
-package com.tech.exp;
+package com.tech.exc;
 import java.util.*;
 public class Exc18 {
 	public static void main(String[] args) {
